@@ -1,0 +1,9 @@
+org\edu\unidep\rest\request\CarroRequest.class
+org\edu\unidep\impl\CarroImpl.class
+org\edu\unidep\rest\CarroRest.class
+org\edu\unidep\rest\response\CarroResponse.class
+org\edu\unidep\command\CarroCommand.class
+META-INF\panache-archive.marker
+org\edu\unidep\repository\CarroRepository.class
+org\edu\unidep\model\Carro.class
+org\edu\unidep\service\CarroService.class
