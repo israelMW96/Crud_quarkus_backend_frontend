@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Carros</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css?family=Lobster:regular" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Dosis:200,300,regular,500,600,700,800" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="conteiner">
+        <header>
+            <h1>Cadastro de Carros</h1>
+        </header>
+
+        <div class="botoes-conteiner">
+            <button id="btnIncluir" onclick="abrirModal()">Incluir novo Carro</button>
+            <div class="botao-buscarPorId">
+                <input id="buscarPorId" type="text" required placeholder="Digite o ID aqui...">
+                <button id="btnBuscarPorId" onclick="buscarPorId()">Buscar por ID</button>
+            </div>
+        </div>
+
+        <div class="Table">
+            <table>
+                <thead>
+                    <tr>
+                        <th class="col-id">ID</th>
+                        <th class="col-nome">Nome</th>
+                        <th class="col-marca">Marca</th>
+                        <th class="col-cor">Cor</th>
+                        <th class="col-ano">Ano</th>
+                        <th class="col-valor">Valor R$</th>
+                        <th class="acao">Editar</th>
+                        <th class="acao">Excluir</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                </tbody>
+            </table>
+        </div>
+
+        <div class="modal-conteiner">
+            <div class="modal">
+                <form>
+                    <label for="m-id">ID</label>
+                    <input id="m-id" type="text" onclick="mensagemId()" readonly autocomplete="off" />
+
+                    <label for="m-nome">Nome</label>
+                    <input id="m-nome" type="text" required autocomplete="off" />
+
+                    <label for="m-marca">Marca</label>
+                    <input id="m-marca" type="text" required autocomplete="off" />
+
+                    <label for="m-cor">Cor</label>
+                    <input id="m-cor" type="text" required autocomplete="off" />
+
+                    <label for="m-ano">Ano</label>
+                    <input id="m-ano" type="text" required autocomplete="off" />
+
+                    <label for="m-valor">Valor</label>
+                    <input id="m-valor" type="number" required autocomplete="off" />
+
+                    <button id="btnSalvar">Salvar</button>
+                </form>
+            </div>
+        </div>
+
+    </div>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
