@@ -1,5 +1,5 @@
 # Crud_quarkus_backend_frontend
-Aplicação web full-stack desenvolvida no 4º período da faculdade de Análise e Desenvolvimento de Sistenas, para a materia de programação web - Frontend.
+Aplicação web full-stack desenvolvida no 4º período da faculdade de Análise e Desenvolvimento de Sistenas, para a materia de programação web - Frontend. A API simula uma tela de cadastro de carros, que exibe os dados dos mesmo e permite a interação com as operações de CRUD.
 
 Backend:
 - Desenvolvido no IntelliJ.
